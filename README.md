@@ -12,7 +12,7 @@ peer assessment.  The files are:
 * tidy.txt - the initial data set, containing all of the mean and standard deviation measures
 * tidy_average.txt - the second data set, containing the measures averaged over the subject and activity
 
-### Data
+### Source Data
 
 The data was downloaded from 
 
@@ -27,4 +27,9 @@ The external library reshape2 is required so that the melt and dcast functions c
 The run_analysis.R script can be run in R and does not require additional files.  It reads the
 data from the directory specified above and expects the same subdirectory and files that are 
 contained in the zipfile.
+
+### Output
+
+The run_analysis.R script outputs the two test files, tidy.txt and tidy_average.txt.
+
 
